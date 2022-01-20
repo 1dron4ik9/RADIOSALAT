@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+  @import url(https://allfont.ru/allfont.css?fonts=pragmatica);
+
+body{
+	font-family: Pragmatica;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	background: #000000;
+	z-index: 100
+
+
+
+}
+.nav,.ru{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #9C9C9C;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.brand,.tech,.material,.product,.news,.test,.faq{
+	color: #9C9C9C;
+	text-decoration: none;
+	margin-right: 20px
+}
+.contact{
+	color: #9C9C9C;
+	text-decoration: none;
+
+}
+.logo{
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+.nav1{
+	margin-bottom: 15px;
+	display: flex
+}
+.fa-search{
+	color:#9C9C9C;
+	margin-left: 76px;
+	margin-bottom: 15px;
+
+}
+.search{
+	display: flex;
+	align-items: flex-end;
+}
+.ru{
+	display: flex;
+	flex-direction: row;
+    align-items: flex-end;
+    margin-right: 77px;
+    margin-bottom: 15px;
+}
+.container{
+	width: 1350px;
+	margin: 0 auto;
+}
+.intro-img{
+	background: url('img/mainphoto.png') no-repeat;
+	min-height: 640px;
+	max-width: 1350px;
+	margin: auto;
+	z-index: 1;
+	display: flex;
+	align-items: flex-end;
+}
+.preview{
+	width: 100%;
+	z-index: 3;
+	display: flex;
+	justify-content: : flex-end;
+	
+}
+.section{
+	margin: 0px 185px 0 295px;
+}
+.start1{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 44px;
+	color: #80858C;
+	letter-spacing: 0.05em;
+}
+.start2{
+	color: #ffffff;
+}
+.center1{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+.left{
+	width: 595px;
+	height: 212px;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.end1{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #56CCF2;
+	text-decoration: none;
+}
+.center{
+	width: 595px;
+	height: 81px;
+	display: flex;
+}
+.right{
+	display: flex;
+    align-items: flex-end;
+
+}
+.scroll__left{
+	margin-right: 30px;
+}
